@@ -25,11 +25,6 @@ function App() {
       <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-container">
           <div className="logo">Schematic</div>
-          <ul className="nav-links">
-            <li><a href="#templates">Templates</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
         </div>
       </nav>
 
@@ -41,7 +36,6 @@ function App() {
         </div>
         <div className="container">
           <div className="hero-content">
-            <span className="hero-tag">✨ Handcrafted Portfolio Templates</span>
             <h1>
               Premium Portfolio Templates <span className="text-gradient">Made for You</span>
             </h1>
@@ -168,95 +162,6 @@ function App() {
                 style={{ marginTop: 'var(--space-md)', width: '100%' }}
               >
                 Contact to Buy
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section id="features" className="pricing">
-        <div className="container">
-          <div className="section-header">
-            <span className="section-tag">Why Choose My Templates</span>
-            <h2>Built with <span className="text-gradient">Excellence</span></h2>
-            <p>
-              Every template I create is crafted with modern technologies and best practices
-              to ensure your portfolio performs exceptionally.
-            </p>
-          </div>
-
-          <div className="features-grid">
-            <div className="feature-card">
-              <div className="feature-icon">⚡</div>
-              <h3>Lightning Fast</h3>
-              <p>
-                Optimized for speed with modern build tools. Your portfolio will load
-                instantly, providing the best user experience.
-              </p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">📱</div>
-              <h3>Mobile Responsive</h3>
-              <p>
-                Perfect on every screen size. All templates are tested across devices
-                to ensure they look stunning everywhere.
-              </p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">🎨</div>
-              <h3>Modern Design</h3>
-              <p>
-                Contemporary aesthetics using the latest design trends. Animations,
-                gradients, and smooth transitions included.
-              </p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">🔧</div>
-              <h3>Easy to Customize</h3>
-              <p>
-                Well-organized code with clear documentation. Customize colors,
-                fonts, and content to match your brand easily.
-              </p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">🔒</div>
-              <h3>SEO Optimized</h3>
-              <p>
-                Built following SEO best practices. Proper meta tags, semantic HTML,
-                and optimized structure for search engines.
-              </p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">💼</div>
-              <h3>Full Source Code</h3>
-              <p>
-                Complete access to clean, well-commented source code. Own it forever
-                with no recurring fees or subscriptions.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section id="contact" className="cta">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Interested in Any Template?</h2>
-            <p>Contact me to discuss pricing, customization options, or request a demo. I'm here to help you build your perfect portfolio.</p>
-            <div className="cta-form">
-              <button
-                onClick={() => handleContactClick()}
-                className="btn btn-primary btn-large"
-                style={{ background: 'var(--color-bg-dark)', boxShadow: 'var(--shadow-lg)' }}
-              >
-                📧 Contact Me Now
               </button>
             </div>
           </div>
