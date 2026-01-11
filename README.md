@@ -1,16 +1,115 @@
-# React + Vite
+# Schematic Portfolio - Technical Theme
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A modern portfolio showcase featuring a **technical schematic design theme** inspired by circuit boards, architectural blueprints, and system diagrams. The design combines cutting-edge aesthetics with professional presentation.
 
-Currently, two official plugins are available:
+## Featured Projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 6 Portfolio Projects Displayed:
 
-## React Compiler
+1. **⬡ E-Commerce Platform**
+   - Full-stack marketplace with real-time inventory
+   - Payment gateway integration
+   - User authentication & responsive dashboard
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **◈ Task Management System**
+   - Collaborative workflow platform
+   - Real-time synchronization
+   - Drag-and-drop interface with analytics
 
-## Expanding the ESLint configuration
+3. **◬ Data Visualization Dashboard**
+   - Interactive analytics interface
+   - Dynamic chart rendering
+   - Real-time data streaming
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **▣ Social Media Application**
+   - Feature-rich social platform
+   - Content feeds & engagement metrics
+   - Media uploads & notification system
+
+5. **⬢ Booking & Reservation System**
+   - Automated scheduling platform
+   - Calendar integration
+   - Payment processing & confirmations
+
+6. **◧ Content Management Platform**
+   - Headless CMS architecture
+   - API-first design
+   - Rich text editor & version control
+
+## Design Features
+
+### Visual Theme
+- **Technical precision**: Blueprint-style grid patterns
+- **Circuit aesthetics**: Geometric nodes and connections
+- **Schematic colors**: Cyan blue, teal green, warning yellow
+- **Dark theme**: Professional deep backgrounds
+
+### UI Components
+- **Geometric cards**: Clipped corners with technical borders
+- **Animated icons**: Bordered frames with pulsing indicators
+- **Technical buttons**: Angled corners with shine effects
+- **Grid backgrounds**: Multi-layered schematic patterns
+
+### Typography
+- Primary: "Technical Portfolio Index"
+- Section: "Project Archive" / "Featured Work Modules"
+- Buttons: "View Project" / "Initialize Contact"
+
+## Technical Stack
+
+- **React** - UI Framework
+- **Vite** - Build tool
+- **Custom CSS** - Schematic theme styling
+- **Modern JavaScript** - ES6+ features
+
+## Files Structure
+
+```
+src/
+├── App.jsx          - Main component with portfolio projects
+├── App.css          - Component-specific styles
+├── index.css        - Global styles & design tokens
+└── schematic.css    - Technical animations & patterns
+```
+
+## Color Palette
+
+```css
+--color-primary: hsl(195, 100%, 45%)     /* Cyan Blue */
+--color-secondary: hsl(45, 100%, 50%)    /* Yellow */
+--color-accent: hsl(160, 100%, 40%)      /* Teal Green */
+--color-bg-dark: hsl(210, 20%, 6%)       /* Dark Background */
+```
+
+## Usage
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Customization
+
+To add your own projects:
+1. Edit `src/App.jsx`
+2. Update project cards in the features grid
+3. Modify project names, descriptions, and icons
+4. Update contact email in `handleContactClick` function
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## License
+
+All rights reserved © 2026 Schematic
